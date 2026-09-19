@@ -1,0 +1,38 @@
+# chain-of-title-compass — llms.txt
+
+> Chain-of-Title Compass: answer "who owns what" from the rights source of
+> truth — cite DOCUMENTED passport fields, refuse to assert PENDING ones.
+> Advisory tooling only, NOT legal advice. Free lane, no credentials.
+> License: MIT-0. Publisher: Cumulative Web Inc (hp@cumulativeweb.com).
+> Install: `clawhub install cwi/chain-of-title-compass`
+
+## Quickstart
+
+```bash
+clawhub install cwi/chain-of-title-compass
+cd ~/.clawhub/skills/cwi/chain-of-title-compass
+python3 scripts/passport_check.py
+# PASSPORT OK: Zooted Zone (CHAIN-OF-TITLE COMPASS) — DOCUMENTED fields cited, PENDING named
+```
+
+Then read SKILL.md for the rights-question procedure and HEARTBEAT cadence.
+
+## Machine-readable endpoints
+
+- Rights Passports: https://cumulativewebinc.github.io/cwi-learn/compass/passports.json (format cwi-compass/v1, 24 passports)
+- Item card: https://cumulativewebinc.github.io/cwi-learn/compass/item-card.json
+- Rubric: https://cumulativewebinc.github.io/cwi-learn/compass/rubric.json
+- Gear registry: https://cumulativewebinc.github.io/cwi-learn/gear.json
+- Agent card (this skill): ./agent-card.json
+
+## Rules
+
+- DOCUMENTED = cite verbatim with source. PENDING = "Undocumented — [what's missing], provided by [provided_by]."
+- Never fill a PENDING field from general knowledge or memory.
+- Passports file 404s → stop; do not answer rights questions from memory.
+- Repeat the advisory disclaimer whenever the answer leaves your session.
+- HEARTBEAT: re-fetch passports.json daily; never answer from a copy older than 24h.
+
+## Optional paid lanes (x402, declared upfront; never required)
+
+- sync-readiness $0.25/call (USDC, Base Sepolia testnet; no public URL published yet — operator self-hosts).
