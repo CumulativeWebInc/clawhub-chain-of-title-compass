@@ -1,7 +1,7 @@
 ---
 name: chain-of-title-compass
-description: "Answer 'who owns what' from the rights source of truth — cite DOCUMENTED passport fields, refuse to assert PENDING ones. Advisory tooling only, not legal advice. Free; no login, no API key."
-version: 1.0.0
+description: "Know what you can actually license: organize a catalog's rights facts into DOCUMENTED vs PENDING before you pitch. Advisory tooling only, not legal advice. Free; no login, no API key."
+version: 1.1.0
 license: MIT-0
 metadata:
   openclaw:

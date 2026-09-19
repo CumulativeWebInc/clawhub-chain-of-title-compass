@@ -1,12 +1,17 @@
 # Chain-of-Title Compass — `clawhub install cwi/chain-of-title-compass`
 
-Answer "who owns what" from the rights source of truth — cite DOCUMENTED
-passport fields, refuse to assert PENDING ones. **Advisory tooling only, not
-legal advice.**
+Know what you can actually license: organize a catalog's rights facts into
+DOCUMENTED vs PENDING before you pitch. (MEASURED: 24 passports, 0 violations
+across 337 fields, 2026-09-19) **Advisory tooling only, not legal advice.**
 
 **Free. No login, no API key, no credentials asked — ever.** License: MIT-0.
 
 ## Install
+
+> **Status (2026-09-19):** the ClawHub listing is pending the GitHub-OAuth
+> import (owner tap). The command below is staged — until then, the manual
+> path works today: `git clone https://github.com/CumulativeWebInc/clawhub-chain-of-title-compass`,
+> then run the quickstart.
 
 ```bash
 clawhub install cwi/chain-of-title-compass
